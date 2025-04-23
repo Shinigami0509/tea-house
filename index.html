@@ -9,30 +9,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <!-- fontawsome cdn -->
-    <script src="https://kit.fontawesome.com/e42731023d.js" crossorigin="anonymous"></script>
     <style>
         .manrope {
-            font-family: "Manrope", sans-serif;
-        }
+        font-family: "Manrope", sans-serif;       
+      }
     </style>
+    <!-- fontawsome cdn -->
+    <script src="https://kit.fontawesome.com/e42731023d.js" crossorigin="anonymous"></script>
     <!-- tailwind css cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        clifford: '#da373d',
-                    }
-                }
-            }
-        }
-    </script>
+    
 
 </head>
 
-<body>
+<body class="manrope">
 
     <!-- main content -->
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
@@ -297,21 +287,27 @@
 
                 <!-- Fourth Column -->
                 <div>
-                    <h3 class="font-semibold text-lg mb-3">Subscribe to our newsletter</h3>
+                    <h3 class="font-semibold text-lg mb-3">
+                      Subscribe to our newsletter
+                    </h3>
                     <div class="flex flex-col space-y-2">
-                        <div>
-                            <input type="text" placeholder="Email Address"
-                                class="bg-transparent border-b-2 border-black w-4/6">
-
-                                <i class="fa-solid fa-chevron-right 
-                                w-7 h-7 bg-orange-600 inline-flex rounded-full text-white justify-center items-center"></i>
-                                <div class="flex justify-between w-2/5 mb-2 mt-8">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                    <i class="fa-brands fa-twitter"></i>
-                                    <i class="fa-brands fa-square-instagram"></i>
-                                </div>
+                      <div>
+                        <input
+                          placeholder="Email Address"
+                          type="text"
+                          class="bg-transparent border-b-2 border-black w-4/6"
+                        />
+                        <i
+                          class="fa-solid fa-chevron-right w-7 h-7 bg-orange-600 inline-flex rounded-full text-white justify-center items-center"
+                        ></i>
+                        <div class="flex justify-between w-2/5 mb-2 mt-8">
+                          <i class="fa-brands fa-facebook"></i>
+                          <i class="fa-brands fa-square-instagram"></i>
+                          <i class="fa-brands fa-square-twitter"></i>
                         </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
 
                 <div class="text-center pt-4 mt-4">
